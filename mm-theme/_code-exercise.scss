@@ -5,6 +5,8 @@ $mm-sample-font-serif:      Georgia, "Times New Roman", Times, serif;
 
 html {
   font-size: 62.5%; //why do we set the font size to this value at the html level?
+  //because we are setting the base font-size on the root element (rem) so all other element can use
+  //it relatively instead of using em which is only relative to the parent element.
   position: relative;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
