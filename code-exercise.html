@@ -1,84 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <!-- Feel free to include a different version or framework, this is intended simply to save time -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- relative path to where we are generating the css file from the scss internally -->
-    <link type="text/css" rel="stylesheet" href="global-styles/mm-code-exercise.css">
 
-    <title>MassMutual Code Exercise</title>
-  </head>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- Feel free to include a different version or framework, this is intended simply to save time -->
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- relative path to where we are generating the css file from the scss internally -->
+  <link type="text/css" rel="stylesheet" href="global-styles/mm-code-exercise.css">
 
-  <body>
+  <title>MassMutual Code Exercise</title>
+</head>
 
-    <header>
-      <div class="container">
-        <img src="https://www.massmutual.com/global-images/logo_MM-white.svg" alt="MassMutual logo"/>
-      </div>
-    </header>
+<body>
 
-    <main class="container">
+  <header>
+    <div class="container">
+      <img src="https://www.massmutual.com/global-images/logo_MM-white.svg" alt="MassMutual logo" />
+    </div>
+  </header>
 
-      <div>
-        <h1>MassMutual</h1>
-        <h2>Coding Exercise</h2>
-        <p>Here is a simple coding exercise for front end development at MassMutual.
-          What we are hoping is that you'll take roughly an hour, two max, to style this page
-          to match the image. Please note that some styles on this page will differ
-          slightly from our live site.</p>
-      </div>
+  <main class="container">
 
-      <div>
-        <!-- some basic html to start off the cards, go forth and be awesome -->
-        <div class="mm-card">
-          <!--<div class="image" style="background-image: url('http://via.placeholder.com/778x368');"></div>-->
-          <img src="http://via.placeholder.com/778x368" alt="Avatar" style="width:100%">
-          <div class="content">
-            <p>category</p>
-            <p>Card Title</p>
-            <p>The title above should use the same style as the h2 at the top of this page but not be an H2 itself.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            <footer>
-              <p>Just text</p>
-              <p>legal text</p>
-            </footer>
-          </div>
+    <div style="max-width: 800px;">
+      <h1>MassMutual</h1>
+      <h2>Coding Exercise</h2>
+      <p>Here is a simple coding exercise for front end development at MassMutual.
+        What we are hoping is that you'll take roughly an hour, two max, to style this page
+        to match the image. Please note that some styles on this page will differ
+        slightly from our live site.</p>
+    </div>
+
+    <!-- some basic html to start off the cards, go forth and be awesome -->
+    <div class="card-deck">
+      <div class="mm-card card">
+        <img class="card-img-top image" src="http://via.placeholder.com/778x368" style="width:100%">
+        <div class="content card-body">
+          <p class="category">category</p>
+          <h2 class="card-title">Card Title</h2>
+          <p class="card-text">The title above should use the same style as the h2 at the top of this page but not be an H2 itself.</p>
         </div>
-
-        <div class="mm-card">
-          <!--div class="image" style="background-image: url('http://via.placeholder.com/778x368');"></div>-->
-          <img src="http://via.placeholder.com/778x368" alt="Avatar" style="width:100%">
-          <div class="content">
-            <p>category</p>
-            <p>Card Title</p>
-            <p>The title above should use the same style as the h2 at the top of this page but not be an H2 itself.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            <footer>
-              <p>Just text</p>
-              <p>legal text</p>
-            </footer>
-          </div>
+        <div class="card-footer special-footer">
+          <button>A Button !</button>
         </div>
-
-        <div class="mm-card">
-          <!--<div class="image" style="background-image: url('http://via.placeholder.com/778x368');"></div>-->
-          <img src="http://via.placeholder.com/778x368" alt="Avatar" style="width:100%">
-          <div class="content">
-            <p>category</p>
-            <p>Card Title</p>
-            <p>The title above should use the same style as the h2 at the top of this page but not be an H2 itself.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            <footer>
-              <p>Just text</p>
-              <p>legal text</p>
-            </footer>
-          </div>
-        </div>
-
       </div>
 
-    </main>
+      <div class="mm-card card">
+        <img class="card-img-top image" src="http://via.placeholder.com/778x368" style="width:100%">
+        <div class="content card-body">
+          <p class="category">category</p>
+          <h2 class="card-title">Card Title</h2>
+            <p class="card-text">The title above should use the same style as the h2 at the top of this page but not be an H2 itself.</p>
+        </div>
+        <div class="card-footer special-footer">
+          <a href="hello">A Link !</a>
+        </div>
+      </div>
 
-  </body>
+      <div class="mm-card card">
+        <img class="card-img-top image" src="http://via.placeholder.com/778x368" style="width:100%">
+        <div class="content card-body">
+          <p class="category">category</p>
+          <h2 class="card-title">Card Title</h2>
+            <p class="card-text">The title above should use the same style as the h2 at the top of this page but not be an H2 itself.<br /><br />
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+            </p>
+        </div>
+        <div class="card-footer special-footer">
+          <p>Just text</p>
+          <p class="subtext">legal text</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+
 </html>

@@ -47,6 +47,7 @@ p       { font-size: 1.4rem; }
 
 a {
   color: #005A9F;
+  font-weight: bold;
   &:hover {
     color: #002f6c;
   }
@@ -78,22 +79,39 @@ a {
 
 .mm-card {
   //feel free to make any comments to explain your thinking
-
   display: inline-block;
   width: 100%;
-  max-width: 400px;
 
   .image {
     //including some base styles so this shows up in the basic page, feel free to change these
-    //height: inherit;
-    height: 350px;
-    width: 350px;
-    //min-height: 15rem;
-    //max-width: 350px;
+    height: 180px;
+    min-height: 15rem;
+    width: 100%;
+  }
+
+  h2{
+    @extend %h2;
+  }
+
+  button {
+    @extend %btn-primary;
+  }
+
+  .category {
+    @extend %eyebrow;
   }
 
   .content {
-    width: 80%;
-    padding: 20px;
+    padding: 15px;
   }
+
+  .subtext {
+    @extend %subtext;
+  }
+
+  .special-footer {
+      background-color: transparent ;
+      border:none;
+    }
+
 }
