@@ -16,4 +16,4 @@ Compile scss to css
     
     $ sass mm-code-exercise.scss global-styles/mm-code-exercise.css
 
-Just load [code-exercise.html]/code-exercise.html in the browser
+Just load [code-exercise.html](/code-exercise.html) in the browser
